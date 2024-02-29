@@ -1,0 +1,32 @@
+.footer {
+  max-width: 100%;
+  margin-top: 100px;
+}
+.footer-container {
+  background-color: #f87171;
+  padding: 20px 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container li p {
+  text-align: center;
+  color: #fff;
+}
+
+/* START RWD */
+@media screen and (max-width: 400px) {
+  .footer {
+    max-width: 100%;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-container li {
+    margin-top: 10px;
+  }
+  .footer-container li p {
+    text-align: center;
+  }
+}
+/* END RWD */

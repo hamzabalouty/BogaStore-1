@@ -1,0 +1,21 @@
+.carousel {
+  background-color: #fff;
+  padding: 20px 0;
+}
+.carousel-container {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 15px;
+}
+.carousel-img {
+  height: 100%;
+  width: 100%;
+}
+.carousel-img img {
+  height: 300px;
+  width: 100%;
+}
+.carousel-img img:focus {
+  border: none;
+  outline: none;
+}
